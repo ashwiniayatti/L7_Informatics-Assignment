@@ -9,7 +9,7 @@ def flavor_list(request):
     search = request.GET.get("search")
     if search:
         flavors = flavor.filter(name__icontains=search)
-    return render(request, 'flavor_list.html', {'flavors': flavors})
+    return render(request, 'flavor_list.html', {'flavors': flavor})
 
 @login_required
 def add_to_cart(request, flavor_id):
