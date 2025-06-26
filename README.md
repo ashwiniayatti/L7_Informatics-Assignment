@@ -23,8 +23,8 @@ This is a Django application for managing an ice cream parlor's seasonal flavors
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ice cream parlor.git
-   cd ice cream parlor
+   git clone [https://github.com/yourusername/ice cream parlor.git](https://github.com/ashwiniayatti/L7_Informatics-Assignment.git)
+   cd ice-cream-parlor
 2. Create and activate a virtual environment:
     ```bash
     python  m venv venv
