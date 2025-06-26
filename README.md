@@ -23,8 +23,9 @@ This is a Django application for managing an ice cream parlor's seasonal flavors
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ashwiniayatti/L7_Informatics-Assignment.git
-   cd ice-cream-parlor
+   git git clone https://github.com/ashwiniayatti/L7_Informatics-Assignment.git
+   cd ice_cream_parlor
+   
 2. Create and activate a virtual environment:
     ```bash
     python  m venv venv
@@ -52,7 +53,21 @@ This is a Django application for managing an ice cream parlor's seasonal flavors
     ```bash
      docker compose up
 
+## Test Steps
 
+1. Log in using your credentials.(you can also add any user from admin panel in customuser table admin credential is [username:admin ,password:admin] add user and come to login page and you can access the other pages )
+
+2. Navigate to the flavors page and browse the list.
+
+3. Use the search bar to filter flavors by name.
+
+4. Add a flavor to your cart.
+
+5. View the cart to confirm items.
+
+6. Submit a new flavor suggestion.
+
+7. Add allergens and confirm they appear in your list.
 ## ORM Abstractions Used
 
 - `Flavor.objects.all()`: Retrieve all flavors.
@@ -67,4 +82,5 @@ This is a Django application for managing an ice cream parlor's seasonal flavors
 - `models.py`: Defines `Flavor`, `Suggestion`, `Cart`, `Allergen`, etc.
 - `templates/`: HTML templates for rendering views.
 - `urls.py`: Maps URL paths to views.
+
 
