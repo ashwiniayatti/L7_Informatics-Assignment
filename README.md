@@ -55,7 +55,7 @@ This is a Django application for managing an ice cream parlor's seasonal flavors
 
 ## Test Steps
 
-1. Log in using your credentials.(you can also add any user from admin panel in customuser table admin credential is [username:admin ,password:admin] add user and come to login page and you can access the other pages )
+1. Log in using your credentials.(you can also add any user from admin panel in customuser table admin credential is [username:admin ,password:admin](http://127.0.0.1:8000/admin/) add user and come to login page and you can access the other pages )
 
 2. Navigate to the flavors page and browse the list.
 
